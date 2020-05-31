@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>color mixture</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="teststyle.css">
+
+</head>
+<body>
+    <h1 id="mixture">color mixture</h1>
+<div class="container">  
+    
+    <div class="color">
+        <h3>Red</h3>
+      <input type="range" min="0" max="255" value="0" class="slider" id="red">
+       <div class="redColor"></div>
+        <span id="redValue"></span>
+    </div>
+    
+    <div class="color">
+         <h3>Green</h3>
+    <input type="range" min="0" max="255" value="0" class="slider" id="green">
+       <div class="greenColor"></div>
+        <span id="greenValue"></span>
+    </div>
+    
+    <div class="color">
+        <h3>Blue</h3>
+     <input type="range" min="0" max="255" value="0" class="slider" id="blue">
+       <div class="blueColor"></div>
+        <span id="blueValue"></span>
+    </div>
+</div> 
+    
+    
+   <div class="result" id="result"></div>
+    <div class="end">
+     <span id="colorCode"></span>
+    <span>
+   <lable>Opacity :</lable>     
+    <input type="range" min="0" max="1" step="0.01" id="opacity" value="1">  
+        <div id="opacityValue"></div>
+   </span>
+    <span id="hexaCode"></span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+<!-- Mirrored from www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Apr 2019 03:37:53 GMT -->
+</html>
